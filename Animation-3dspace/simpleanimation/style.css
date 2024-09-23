@@ -1,0 +1,19 @@
+.animation{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left:20%;
+    background-color: cyan;
+    /* transition: all 1s ease-in-out;  */
+    /* transition: 1s steps(4, step-end); */
+    transition: transform 0.5s, border-radius 0.5s;    }
+    
+.animation:hover{
+    /* transform: translatey(100px);  */
+    /* transform: scale(1.5,0.4); */
+    /* transform: scale(1.5) translate(150px); */
+    transform: translate(180px, -80px) rotate(360deg);
+    border-radius: 50%;
+    
+}
